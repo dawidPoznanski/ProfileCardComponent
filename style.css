@@ -116,6 +116,17 @@ hr {
   border: 1px solid hsl(227, 10%, 46%);
   width: 100%;
 }
+.attribution {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.attribution h1 {
+  font-size: 11px;
+}
 
 @media only screen and (max-width: 400px) {
   .card {
